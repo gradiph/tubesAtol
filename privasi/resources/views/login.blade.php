@@ -1,5 +1,6 @@
 @extends('template.t_index')
 @section('title') Masuk | @stop
+@section('body') <body> @stop
 @section('content')
 
 <div class="container">

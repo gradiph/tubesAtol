@@ -11,7 +11,7 @@
     {{ Html::style('assets/js/jquery-ui-1.11.4.custom/jquery-ui.min.css') }}
     {{ Html::script('assets/js/jquery-ui-1.11.4.custom/jquery-ui.min.js') }}
 </head>
-<body>
+@yield('body')
 	<header>@include('template.header')</header>
     <div class="content">@yield('content')</div>
     <br />
