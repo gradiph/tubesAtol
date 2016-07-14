@@ -1,0 +1,117 @@
+pengunjung_biasa --> 
+	lihat info,
+bisa jadi pemilik usaha tp daftar dulu,
+
+
+
+MODEL MENTAL
+___________
+
+- liat info
+- cari info usaha
+- filter info usaha berdasarkan kecamatan, kel, jenis_usaha,
+sektor_usaha
+- form pendaftaran jadi pemilik usaha
+
+daftar nya
+---------
+
+nama
+no_ktp(utk username login)
+email(sbg fasil lupa passw)
+pass
+almat
+tempat-tanggal lahir
+upload file ktp
+sisanya opsional
+
+
+
+setalh daftar tidak langsung aktf
+
+pemilik_usaha --> 
+	login,
+update info akun
+input data usaha,
+hapus data usaha,
+liat info usaha yang lengkap di kota bandung
+
+
+FORM LOGIN
+___________
+form login pemilik usaha, (username dengan KTP)
+frm lupa passw,
+form update info akun
+form crud (usaha)
+form input data usaha baru
+1 pemilik usaha boleh punya lebih dari 1 nama usaha dengan 1 akun
+
+
+
+INPUT DATA USAHA 
+_---------------_
+
+nama usaha
+pemilk usaha,
+produk utama
+alamat lengkap
+kelurahan
+kecamatan
+telp
+latitude
+longitude
+peta alamat usaha
+skala usaha(mikro,kecil,menengah)
+sektor usaha
+gambar usaha (gambar max 5 dalam satu nama usaha)
+
+
+
+
+
+
+ADMIN INDUSTRI-->
+memberi username,
+memberi akses pada pemilik usaha utk lgin
+verifikasi oleh admin si calon pendaftar
+
+
+setelah di verifikasi diberi email -
+tentang akun telah aktif dan bisa login
+
+
+- pengolahan akun pemilik usaha (aktivasi & deaktivasi)
+- pengolaha data wilayah (kec, kelurahan)
+- pengolahan data usaha (creat,read,update,delt)
+- pengolahan data usaha yang diinputkan oleh pemilik usaha 
+- pengolahan laporan datat usaha berupa file excel (*.xlsx)
+
+
+
+AKSES YANG DIPUNYA
+__________________
+- form login admin
+- form olah data usaha (crud)
+- form olah kecamatan (crud)
+- form olah kelurahan (crud)
+- form kelurahan dan kecamatan berelasi
+- form olah skala_usaha {mikro,kecil,menengah}(crud)
+- form pengelolaan sektor_usaha ada (15)
+(Periklanan, Arsitektur, Pasar Barang Seni, Kerajinan, Desain, Fashion, Video,
+Film dan Fotografi, Permainan Interaktif, Musik, Seni Pertunjukan, Penerbitan
+dan Percetakan, Layanan Komputer dan Piranti Lunak, Televisi & Radio, Riset
+dan Pengembangan, Kuliner)
+
+- Form pengolahan cetak laporan data usaha kedalam format Excell (*.xlsx) yang dapat
+berupa semua laporan, atau berdasarkan hasil filterisasi.
+- Form aktivasi user pemilik usaha. Apabila ada user pemilik usaha yang baru, maka
+dihalaman admin terdapat notifikasi. Sebelum user di aktivasi, maka belum dapat
+menginputkan data usaha miliknya.
+- Form aktivasi data usaha. Admin dapat mengaktifkan dan menonaktifkan data usaha.
+Apabila data usaha tersebut nonaktif, maka tidak akan tampil di informasi data
+usaha.
+
+
+
+admin_perdagangan
+
