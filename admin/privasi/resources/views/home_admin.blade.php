@@ -1,4 +1,5 @@
 @extends('template.t_index')
+@section('title') Home | @stop
 @section('content')
 
 <div class="container">

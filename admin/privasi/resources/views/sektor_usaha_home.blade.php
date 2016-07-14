@@ -1,9 +1,9 @@
 @extends('template.t_index')
-@section('title') Home | @stop
+@section('title') Data Sektor Usaha | @stop
 @section('content')
 
 <div class="container">
-    <p>Index Super Admin</p>
+    <p>Sektor Usaha</p>
 </div>
 
 @stop
