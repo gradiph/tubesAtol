@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="container">
-    <p>Index</p>
+    <p>Index Admin</p>
 </div>
 
 @stop
