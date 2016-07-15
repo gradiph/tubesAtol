@@ -142,7 +142,7 @@ $(document).ready(function(e) {
         </thead>
         <tbody>
         	<tr>
-            	<td>1</td>
+            	<td>2</td>
                 <td>Coba</td>
                 <td>coba@coba.com</td>
                 <td>Bandung, 17-07-2016</td>
