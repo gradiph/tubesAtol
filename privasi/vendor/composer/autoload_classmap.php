@@ -14,7 +14,7 @@ return array(
     'CreateSektorUsahaTable' => $baseDir . '/database/migrations/2016_07_15_100653_create_sektor_usaha_table.php',
     'CreateSessionsTable' => $baseDir . '/database/migrations/2016_07_11_094130_create_sessions_table.php',
     'CreateSkalaUsahaTable' => $baseDir . '/database/migrations/2016_07_15_100713_create_skala_usaha_table.php',
-    'CreateUsahaTable' => $baseDir . '/database/migrations/2016_07_15_100719_create_usaha_table.php',
+    'CreateUsahaTable' => $baseDir . '/database/migrations/2016_07_15_120719_create_usaha_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',

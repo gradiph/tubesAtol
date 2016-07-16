@@ -21,7 +21,6 @@ class CreatePemilikUsahaTable extends Migration
 			$table->string('tempat_lahir',50);
 			$table->date('tgl_lahir');
 			$table->string('gambar_ktp');
-			$table->string('gambar_foto');
 			$table->enum('status',['Aktif','Menunggu','Non-Aktif'])->default('Menunggu');
 			$table->string('token');
 			

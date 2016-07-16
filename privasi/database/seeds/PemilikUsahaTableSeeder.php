@@ -19,7 +19,6 @@ class PemilikUsahaTableSeeder extends Seeder
 			'tempat_lahir' => 'Cirebon',
 			'tgl_lahir' => '1995-05-15',
 			'gambar_ktp' => 'ktp-4.jpg',
-			'gambar_foto' => 'foto-4.jpg',
 			'status' => 'Aktif',
 			'token' => '1234'
         ]);

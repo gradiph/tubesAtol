@@ -12,18 +12,14 @@
         </div>
         <div class="panel-body">
             {{ Form::open(['url' => URL('processLogin')]) }}
-            Email: 
+            Username: 
             @if($errors->has())
-                <br />
                 <span class="label label-danger">{{ $errors->first('username') }}</span>
-                <p></p>
             @endif
-            {{ Form::email('email', '', ['placeholder' => 'contoh@gmail.com','class' => 'form-control','autofocus' => 'autofocus']) }}
+            {{ Form::text('username', '', ['class' => 'form-control', 'placeholder' => 'NIP','autofocus' => 'autofocus']) }}
             Password:
             @if($errors->has())
-                <br />
                 <span class="label label-danger">{{ $errors->first('password') }}</span>
-                <p></p>
             @endif
             {{ Form::password('password', array('class' => 'form-control', 'placeholder' => 'Password')) }}
             <p></p>

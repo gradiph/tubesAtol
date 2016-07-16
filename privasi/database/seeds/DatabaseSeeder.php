@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SektorUsahaTableSeeder::class);
         $this->call(SkalaUsahaTableSeeder::class);
         $this->call(PemilikUsahaTableSeeder::class);
+        $this->call(UsahaTableSeeder::class);
     }
 }
